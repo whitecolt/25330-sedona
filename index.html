@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
+    <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
 <div class="container">
@@ -21,7 +22,7 @@
 
   <main class="container">
   <div class="index-logo">
-    <img src="img/logo1.png" width="470" height="415" alt="Седона">
+    <img src="img/logo-big2.jpg" width="1200" alt="Седона">
   </div>
   <section class="promo">
   <h2 class="promo-item">Седона - небольшой городок в Аризоне, заслуживающий большего!</h2>
@@ -32,85 +33,106 @@
   <section class="features">
 
   <p class="features-promo">рассмотрим 5 причин, по которым Седона круче, чем Гранд-Каньон!</p>
-  <div class="features-item">
-  <b class="features-name">Настоящий городок</b>
-  <p>№1</p>
-  <p>Седона - не аттракцион для туристов, там течет своя жизнь</p>
+
+  <div class="features-item-one">
+      <b class="features-name">Настоящий городок</b>
+      <p>№1</p>
+      <p>Седона - не аттракцион для туристов, там течет своя жизнь</p>
+
   </div>
-  <div class="features-image">
-    <img src="#" width="800" height="255" alt="true city">
+  <div class="features-image-one">
+    <img src="img/photo-one-1.jpg" width="800" height="255" alt="true city">
   </div>
 
+
+
+<div class="little-features clearfix">
   <div class="little-features-item">
-  <img src="#" width="72" height="80" alt="house">
+  <img src="img/house.png" width="72" height="80" alt="house"><br>
   <b class="little-features-name">Жилье</b>
   <p>Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
   </div>
 
   <div class="little-features-item">
-  <img src="#" width="72" height="80" alt="burger">
+  <img src="img/food.png" width="72" height="80" alt="burger"><br>
   <b class="little-features-name">Еда</b>
   <p>Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
   </div>
 
   <div class="little-features-item">
-  <img src="#" width="72" height="80" alt="souvenir">
+  <img src="img/souvenir.png" width="72" height="80" alt="souvenir"><br>
   <b class="little-features-name">Сувениры</b>
   <p>Не только китайского, но и местного производства!</p>
   </div>
+</div>
 
   <div class="features-item">
     <div class="features-image">
-    <img src="#" width="800" height="255" alt="the devil's bridge">
+    <img src="img/photo-two-2.jpg" width="800" height="255" alt="the devil's bridge">
     </div>
+    <div class="features-item-two">
   <b class="features-name">Там есть мост дьявола</b>
   <p>№2</p>
   <p>Да, по нему можно пройти! Если, конечно, вы осмелитесь</p>
+    </div>
   </div>
 
-  <div class="features-item">
+  <div class="lil-features clearfix">
+  <div class="lil-features-item">
     <b class="features-name">Небольшая площадь</b>
     <p>№3</p>
     <p>Все достопримечательности находятся очень близко</p>
   </div>
 
-  <div class="features-item">
+  <div class="lil-features-item">
     <b class="features-name">Красивая дорога</b>
     <p>№4</p>
     <p>Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
   </div>
 
 
-  <div class="features-item">
+  <div class="lil-features-item">
     <b class="features-name">Мало туристов</b>
     <p>№5</p>
     <p>Большинство едет в Гранд-Каньон и толпится там</p>
   </div>
+</div>
 
 </section>
 
+
+
 <section class="booking">
   <h1 class="booking-name">Заинтересовались?</h1>
-  <p>Укажите предполагаемые даты поездки и мы покажем вам лучшие предложения гостиниц в Седоне</p>
+  <p class="booking-text">Укажите предполагаемые даты поездки,<br> и мы покажем вам лучшие предложения гостиниц в Седоне</p>
+
+
+  <div class="booking-form-title">
+  Поиск гостиницы в Седоне
+  </div>
+  <div class="map">
   <div class="booking-form">
-    <p>Поиск гостиницы в Седоне</p>
+
     <form action="#" method="post">
       <label>Дата заезда:
       <input type="text" name="date-in" value="24 апреля 2016">
-      </label>
+    </label><br>
       <label>Дата выезда:
       <input type="text" name="date-out" value="4 июля 2016">
       </label>
       <!--тут будет счетчик, но я пока не знаю, как он делается-->
     </form>
+    <div class="booking-btn-item">
     <a class="booking-btn" href="#">Найти</a>
+  </div>
+  </div>
   </div>
 </section>
 
 </main>
 
-<footer class="main-footer">
-  <div class="container">
+<div class="container">
+  <footer class="main-footer">
     <section class="footer-hashtag">
       <a class="footer-hashtag-btn" href="#"></a>
     </section>
